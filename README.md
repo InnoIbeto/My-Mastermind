@@ -55,13 +55,11 @@ i.e. 1234
 If input is a valid; my_mastermind_output_handling then gives a user feedback on their input, the function iterates through the input and determines the well placed or misplaced digits. If all inputs are well placed a prompt "Congratz! You did it!" is displayed
 
 Demo:
-
 inno@DESKTOP-28TU603:/mnt/c/Users/OGTL_ADMIN/Desktop/innoprograms/My Mastermind$ make
 gcc -c my_mastermind_main.c
 gcc -c my_mastermind_validation.c
 cc    -c -o my_mastermind_output_handling.o my_mastermind_output_handling.c
 gcc -o my_mastermind my_mastermind_main.o my_mastermind_validation.o my_mastermind_output_handling.o
-
 inno@DESKTOP-28TU603:/mnt/c/Users/OGTL_ADMIN/Desktop/innoprograms/My Mastermind$ ./my_mastermind -c 1234
 Will you find the secret code?
 Please enter a valid guess    
@@ -72,13 +70,9 @@ Well placed pieces: 0
 Misplaced pieces: 2
 ---
 Round 1
-6532
-Well placed pieces: 1
-Misplaced pieces: 1
----
-Round 2
 1234
-Congratz! You did it!
+Congratz! you did it!
+---
 
 ### The Core Team
 Ibeto Chukwukadibia Innocent
