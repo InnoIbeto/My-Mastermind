@@ -55,7 +55,7 @@ i.e. 1234
 If input is a valid; my_mastermind_output_handling then gives a user feedback on their input, the function iterates through the input and determines the well placed or misplaced digits. If all inputs are well placed a prompt "Congratz! You did it!" is displayed
 
 Demo:
-inno@DESKTOP-28TU603:/mnt/c/Users/OGTL_ADMIN/Desktop/innoprograms/My Mastermind$ make
+xxx /mnt/c/Users/My Mastermind$ make
 gcc -c my_mastermind_main.c
 gcc -c my_mastermind_validation.c
 cc    -c -o my_mastermind_output_handling.o my_mastermind_output_handling.c
